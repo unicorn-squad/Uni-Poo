@@ -1,3 +1,5 @@
+import feedUnicorn from './feed-unicorn.js';
+
 //get all of the buttons with the DOM
 const rainbowButtons = document.querySelectorAll('.color');
 const poonicorn = document.getElementById('poonicorn');
