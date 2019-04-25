@@ -1,0 +1,67 @@
+body {
+    background-color: 
+}
+
+.color {
+    width: 5em;
+    height: auto;
+    margin: 1.5em;
+}
+
+#red {
+    background: red;
+}
+
+#orange {
+    background: orange;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#green {
+    background: rgb(62, 228, 62);
+}
+
+#blue {
+    background: blue;
+}
+
+#purple {
+    background: purple;
+}
+
+#pink {
+    background: hotpink;
+}
+
+#unicorn {
+    width: 200px;
+    height: auto;
+}
+
+.part {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: -20px;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.button-image {
+    width: 3em;
+    height: auto;
+}
