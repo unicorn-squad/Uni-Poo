@@ -10,7 +10,8 @@ for(let i = 0; i < rainbowButtons.length; i++) {
 
     //wire up listening event
     rainbowButton.addEventListener('click', () => {
-        console.log(rainbowButton);
+        feedUnicorn(poonicorn, rainbowButton.value);
+        console.log('in event listener');
     });
 }
 
