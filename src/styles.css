@@ -1,5 +1,24 @@
 body {
     color: red;
+    animation: rainbow 5s infinite;
+    width: 450px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+div {
+    text-align: center;
+}
+
+.part {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: -20px;
+    margin-left: 200px;
 }
 
 .color {
@@ -41,13 +60,6 @@ body {
     height: auto;
 }
 
-.part {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    margin-left: -20px;
-}
 
 .red {
     background: red;
@@ -59,6 +71,22 @@ body {
 
 .yellow {
     background: yellow;
+}
+
+.green {
+    background: rgb(62, 228, 62);
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.pink {
+    background: hotpink;
 }
 
 .button-image {
