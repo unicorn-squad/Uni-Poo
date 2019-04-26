@@ -4,9 +4,24 @@ body {
     width: 450px;
 }
 
-h1 {
+.rainbow {
+    animation: rainbow 5s infinite;
     font-size: 2.5em;
 }
+
+@keyframes rainbow{
+    0%{color: orange;}    
+  10%{color: purple;}    
+     20%{color: red;}
+  30%{color: CadetBlue;}
+     40%{color: yellow;}
+  50%{color: coral;}
+     60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
 
 div {
     text-align: center;
@@ -58,6 +73,11 @@ div {
 #unicorn {
     width: 200px;
     height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
 }
 
 
