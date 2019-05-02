@@ -1,0 +1,115 @@
+body {
+    color: red;
+    animation: rainbow 5s infinite;
+    width: 450px;
+}
+
+.rainbow {
+    animation: rainbow 5s infinite;
+    font-size: 2.5em;
+}
+
+@keyframes rainbow{
+    0%{color: orange;}    
+  10%{color: purple;}    
+     20%{color: red;}
+  30%{color: CadetBlue;}
+     40%{color: yellow;}
+  50%{color: coral;}
+     60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+
+div {
+    text-align: center;
+}
+
+.part {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: -20px;
+    margin-left: 200px;
+}
+
+.color {
+    width: 5em;
+    height: auto;
+    margin: 1.5em;
+}
+
+#red {
+    background: red;
+}
+
+#orange {
+    background: orange;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#green {
+    background: rgb(62, 228, 62);
+}
+
+#blue {
+    background: blue;
+}
+
+#purple {
+    background: purple;
+}
+
+#pink {
+    background: hotpink;
+}
+
+#unicorn {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: rgb(62, 228, 62);
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.pink {
+    background: hotpink;
+}
+
+.button-image {
+    width: 3em;
+    height: auto;
+}
